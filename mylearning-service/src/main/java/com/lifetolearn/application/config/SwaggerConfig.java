@@ -31,10 +31,10 @@ public class SwaggerConfig {
             .build().apiInfo(apiEndPointsInfo());
     }
     private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Spring Boot REST API")
-            .description("Employee Management REST API")
-            .contact(new Contact("Prateek Maurya", "prateek", "prateekmaurya@gmail.com"))
-            .license("Apache 2.0")
+        return new ApiInfoBuilder().title("My Learning Service : Spring Boot REST API")
+            .description("REST API	:	My Learning services")
+            .contact(new Contact(" Prateek Maurya", "prateek", "krprateek25@gmail.com"))
+            .license("License : Apache 2.0")
             .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
             .version("1.0.0")
             .build();

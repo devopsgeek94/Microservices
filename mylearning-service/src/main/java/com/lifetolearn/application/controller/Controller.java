@@ -22,10 +22,13 @@ import com.lifetolearn.application.domain.Credentials;
 import com.lifetolearn.application.domain.User;
 import com.lifetolearn.application.service.UserService;
 
+import io.swagger.annotations.Api;
+
 /**
  * @author Prateek Maurya
  * 		   since 26-Aug-2019
  */
+@Api(value = "My Learning Service")
 @CrossOrigin
 @RestController
 @RequestMapping("/mylearning")
